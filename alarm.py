@@ -9,8 +9,8 @@ working : takes the inputs from user , trigger the buzzer when its about time
 
 import time, os, winsound
 def buzzer():
-    for i in range(3): #number of repeats
-        for j in range(9): #number of beeps
+    for i in range(3): #REPEAT BUZZER
+        for j in range(9):
             winsound.MessageBeep(-1)
             time.sleep(1)
 
